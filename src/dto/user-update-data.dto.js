@@ -1,6 +1,6 @@
 import Ajv from 'ajv';
 import addErrors from 'ajv-errors';
-import { nameDTOSchema, surnameDTOSchema } from '#Lib/dto-type.js';
+import { nameDTOSchema, surnameDTOSchema } from '#Dto/dto-type.js';
 import { Type } from '@sinclair/typebox';
 
 const UserUpdateDataDTOSchema = Type.Object(

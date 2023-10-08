@@ -1,7 +1,7 @@
 import Ajv from 'ajv';
 import addFormats from 'ajv-formats';
 import addErrors from 'ajv-errors';
-import { emailDTOSchema, passwordDTOSchema } from '#Lib/dto-type.js';
+import { emailDTOSchema, passwordDTOSchema } from '#Dto/dto-type.js';
 import { Type } from '@sinclair/typebox';
 
 const LoginDTOSchema = Type.Object(

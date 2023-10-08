@@ -7,7 +7,7 @@ import {
     nameDTOSchema,
     passwordDTOSchema,
     surnameDTOSchema,
-} from '#Lib/dto-type.js';
+} from '#Dto/dto-type.js';
 import { Type } from '@sinclair/typebox';
 
 const RegisterDTOSchema = Type.Object(

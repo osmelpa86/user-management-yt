@@ -6,10 +6,10 @@
         "paths": {
             "#Config/*": ["./src/config/*"],
             "#Controllers/*": ["./src/controllers/*"],
+            "#Constants/*": ["./src/constants/*"],
             "#Dto/*": ["./src/dto/*"],
             "#Routes/*": ["./src/routes/*"],
-            "#Schemas/*": ["./src/schemas/*"],
-            "#Lib/*": ["./src/lib/*"]
+            "#Schemas/*": ["./src/schemas/*"]
         }
     }
 }
